@@ -1,6 +1,6 @@
 # Custom Django User Models: AbstractUser vs AbstractBaseUser Explained
 ## 1.Introduction
-- Example: "Django’s built-in `User` model works well for many projects, but sometimes you need more control. Maybe you want to use an email instead of a username to log in, or you want to store additional profile data. That’s where Django’s `AbstractUser` and `AbstractBaseUser` come in."
+- "Django’s built-in `User` model works well for many projects, but sometimes you need more control. Maybe you want to use an email instead of a username to log in, or you want to store additional profile data. That’s where Django’s `AbstractUser` and `AbstractBaseUser` come in."
 
 ## 2. What is `AbstractBaseUser`?
 - "Does not come with fields like `username`, `email`, `first_name`, etc."
